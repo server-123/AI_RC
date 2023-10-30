@@ -86,7 +86,9 @@ alias cca='catkin clean -y'
 export ROS_MASTER_URI=http://192.168.55.1:11311
 export ROS_IP=192.168.55.1
 ```
+저장 후
 ```
 source ~/.bashrc
 ```
+변경사항 적용
 PC, Jetson에 작업을 편리하게 할 환경을 .bashrc에서 추가해줍니다. alias 명령어추가, PC ↔ Jetson remote 환경을 설정
