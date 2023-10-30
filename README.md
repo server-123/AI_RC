@@ -67,3 +67,22 @@ git clone https://github.com/zeta0707/installROS.git
 cd installROS
 ./install-ros.sh
 ```
+
+#### .bashrc 수정
+jetson nano에서 실행
+```
+cd
+gedit ~/.bashrc 
+```
+```
+# 파일 제일 아래에 다음과 같은 내용 입력
+alias cma='catkin_make -DCATKIN_WHITELIST_PACKAGES=""'
+alias cop='catkin_make --only-pkg-with-deps'
+alias sds='source devel/setup.bash'
+alias coc='catkin clean'
+alias cca='catkin clean -y'
+```
+```
+source ~/.bashrc
+```
+PC, Jetson에 작업을 편리하게 할 환경을 .bashrc에서 추가해줍니다. alias 명령어추가, PC ↔ Jetson remote 환경을 설정
