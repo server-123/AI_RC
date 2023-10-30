@@ -81,6 +81,10 @@ alias cop='catkin_make --only-pkg-with-deps'
 alias sds='source devel/setup.bash'
 alias coc='catkin clean'
 alias cca='catkin clean -y'
+
+# mirco USB 케이블 연결을 사용할 경우, jetson master
+export ROS_MASTER_URI=http://192.168.55.1:11311
+export ROS_IP=192.168.55.1
 ```
 ```
 source ~/.bashrc
