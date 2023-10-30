@@ -3,13 +3,13 @@
 
 ## 소프트웨어
 ### Jetpack & ROS install
-'''
+```
 cd Downloads
 git clone https://github.com/jetsonworld/jetson-fan-ctl.git
 cd jetson-fan-ctl
 
 sudo sh install.sh
-'''
+```
 
 cd Downloads: 현재 디렉토리를 사용자의 'Downloads' 폴더로 변경합니다. 여기서 'Downloads'는 사용자의 다운로드 폴더를 의미합니다.  
 git clone https://github.com/jetsonworld/jetson-fan-ctl.git: git라는 버전 관리 도구를 사용하여 https://github.com/jetsonworld/jetson-fan-ctl.git 주소에 있는 저장소를 복제합니다. 즉, GitHub에서 'jetson-fan-ctl' 라는 프로젝트를 현재 디렉토리(Downloads)에 다운로드합니다.  
