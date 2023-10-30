@@ -5,8 +5,10 @@
 ### Jetpack & ROS install
 https://drive.google.com/file/d/1HU5F1cwiw2wzuNBdLL9R3Wvpg5AXLzw5/view?usp=sharing  
 이미지 다운로드  
-sd format 후 이미지 플래시
+sd format 후 이미지 플래시  
+와이파이 연결
 
+### 쿨링팬
 ```
 cd Downloads
 git clone https://github.com/jetsonworld/jetson-fan-ctl.git
