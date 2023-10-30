@@ -30,6 +30,12 @@ cd jetson-fan-ctl: 현재 디렉토리를 'jetson-fan-ctl' 폴더로 변경함.
 sudo sh install.sh: sudo는 "superuser do"의 줄임말로, 관리자 권한으로 명령어를 실행하라는 의미임.  
 sh install.sh는 'install.sh'라는 쉘 스크립트 파일을 sh(본 쉘)을 사용해 실행하라는 명령어임.  
 
+#### I2C 장치 연결 확인
+~/Downloads/jetson-fan-ctl에서
+```
+sudo i2cdetect -r -y 1
+```
+
 #### ros melodic install
 ```
 cd ~/Downloads/
