@@ -84,8 +84,11 @@ alias coc='catkin clean'
 alias cca='catkin clean -y'
 
 # mirco USB 케이블 연결을 사용할 경우, jetson master
-export ROS_MASTER_URI=http://192.168.55.1:11311
-export ROS_IP=192.168.55.1
+#export ROS_MASTER_URI=http://192.168.55.1:11311
+#export ROS_IP=192.168.55.1
+
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
 ```
 저장 후
 ```
