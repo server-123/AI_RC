@@ -110,3 +110,16 @@ cd catkin_ws
 rosrun turtlesim turtle_teleop_key
 ```
 ![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
+
+#### Install JessiCar
+```
+cd ~/catkin_ws/src
+git clone https://github.com/zeta0707/jessicar.git
+cd ~/catkin_ws
+
+cd ~/Downloads/opencvDownTo34
+sudo patch -p1 /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake -p1 < cv_brige.patch
+cd ~/catkin_ws
+
+cma
+```
