@@ -107,7 +107,6 @@ cd catkin_ws
 rosrun turtlesim turtlesim_node
 # 터미널 #3
 cd catkin_ws
-![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
-
 rosrun turtlesim turtle_teleop_key
 ```
+![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
