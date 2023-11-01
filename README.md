@@ -1,4 +1,5 @@
 # AI_RC
+참조 : https://zeta7.notion.site/zeta7/JessiCar-1449b3fd5c984bab816920cb2b92002d
 ## 하드웨어
 
 ## 소프트웨어
