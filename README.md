@@ -96,3 +96,18 @@ source ~/.bashrc
 ```
 변경사항 적용
 PC, Jetson에 작업을 편리하게 할 환경을 .bashrc에서 추가해줍니다. alias 명령어추가, PC ↔ Jetson remote 환경을 설정
+
+#### Check ROS
+```
+# 터미널 #1
+cd catkin_ws
+roscore
+# 터미널 #2
+cd catkin_ws
+rosrun turtlesim turtlesim_node
+# 터미널 #3
+cd catkin_ws
+![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
+
+rosrun turtlesim turtle_teleop_key
+```
