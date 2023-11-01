@@ -123,3 +123,8 @@ cd ~/catkin_ws
 
 cma
 ```
+
+```
+cd ~/catkin_ws/src/jessicar/script
+./jetRccarParam.sh pca9685Steer
+```
