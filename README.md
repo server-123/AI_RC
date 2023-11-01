@@ -122,9 +122,10 @@ sudo patch -p1 /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake -p1 
 cd ~/catkin_ws
 
 cma
-```
-
+```  
+자동차 설정
 ```
 cd ~/catkin_ws/src/jessicar/script
 ./jetRccarParam.sh pca9685Steer
-```
+```  
+카메라는 기본 설정이 CSI이므로 설정 안 해줘도 괜찮음.
