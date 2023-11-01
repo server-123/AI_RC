@@ -131,10 +131,12 @@ cd ~/catkin_ws/src/jessicar/script
 카메라는 기본 설정이 CSI이므로 설정 안 해줘도 괜찮음.
 
 #### 다른 ROS 패키지
-$ sudo apt update
-$ sudo apt install ros-melodic-joy* \
+```
+sudo apt update
+sudo apt install ros-melodic-joy* \
 ros-melodic-teleop-twist-joy ros-melodic-teleop-twist-keyboard \
 python-smbus ros-melodic-ackermann-msgs ros-melodic-web-video-server \
 ros-melodic-image-pipeline python-pip
 
-$ pip2 install Adafruit_PCA9685
+pip2 install Adafruit_PCA9685
+```
