@@ -1,6 +1,10 @@
 # AI_RC
 참조 : https://zeta7.notion.site/zeta7/JessiCar-1449b3fd5c984bab816920cb2b92002d
 ## Hardware
+![image](https://github.com/server-123/AI_RC/assets/73692229/7e44071a-1e45-4650-add9-6c03deea2334)
+PCA9685의 A5를 납땜
+
+![image](https://github.com/server-123/AI_RC/assets/73692229/b4586a73-3e92-4fa0-9580-5a68d06d85b8)
 
 ## 소프트웨어(Software)
 ### ROS란?
