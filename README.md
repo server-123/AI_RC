@@ -149,9 +149,9 @@ sudo apt-get install joystick
 sudo jstest /dev/input/js0 # 동작 확인
 ```
 ```
-# terminal 1
+# 터미널 1
 $ roslaunch jessicar_control joy_control.launch
 
-# terminal 2
+# 터미널 2
 roslaunch jessicar_joy jessicar_teleop_joy.launch
 ```
