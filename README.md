@@ -191,3 +191,4 @@ $ roslaunch jessicar_camera csicam.launch
 # 터미널 2
 rqt_image_view
 ```
+![Screenshot from 2023-11-06 18-40-04](https://github.com/server-123/AI_RC/assets/73692229/62064e2b-a00a-428a-a4db-31f662b574b5)
