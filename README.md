@@ -167,8 +167,8 @@ roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
 
 -|-|-
----|---|---
----|W|---
-A|S|D
----|X|---
+:---:|:---:|:---:
+---|W(앞)|---
+A(바퀴 왼쪽 회전)|S(멈춤)|D(바퀴 오른쪽 회전)
+---|X(뒤)|---
 
