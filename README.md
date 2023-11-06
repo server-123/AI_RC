@@ -165,6 +165,6 @@ roslaunch jessicar_control keyboard_control.launch
 # 터미널 2
 roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
----|W(앞)|---
+-|W(앞)|---
 A(바퀴 왼쪽 회전)|S(멈춤)|D(바퀴 오른쪽 회전)
 ---|X(뒤)|---
