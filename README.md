@@ -166,5 +166,5 @@ roslaunch jessicar_control keyboard_control.launch
 roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
 ---|W|---  
-A|S|D
+A|S|D  
 ---|X|---
