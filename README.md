@@ -216,10 +216,20 @@ rqt_image_view
 
 ### Blob Tracking
 ```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+```
+
+```
 # 터미널 1
 roslaunch jessicar_control blob_all.launch
 
 # image_view 실행, 이미지 확인
 rosrun image_view image_view image:=/blob/image_blob
 ```
-기본 설정은 초록 물체를 따라감
+기본 설정은 초록 물체를 따라감  
+우클릭 시 사진 저장
+```
+cd ~/catkin_ws/src/jessicar/jessicar_cv/include/
+python range_detector.py --image frame0000.jpg --filter HSV --preview
+```
+사진 이용해 필터값 찾기
