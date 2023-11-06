@@ -155,6 +155,7 @@ roslaunch jessicar_control joy_control.launch
 # 터미널 2
 roslaunch jessicar_joy jessicar_teleop_joy.launch
 ```
+조이콘의 L을 누르고 조이스틱 움직이기
 
 ### Keyboard 연결
 ```
@@ -164,3 +165,6 @@ roslaunch jessicar_control keyboard_control.launch
 # 터미널 2
 roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
+---|W(앞)|---
+A(바퀴 왼쪽 회전)|S(멈춤)|D(바퀴 오른쪽 회전)
+---|X(뒤)|---
