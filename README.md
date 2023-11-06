@@ -150,8 +150,17 @@ sudo jstest /dev/input/js0 # 동작 확인
 ```
 ```
 # 터미널 1
-$ roslaunch jessicar_control joy_control.launch
+roslaunch jessicar_control joy_control.launch
 
 # 터미널 2
 roslaunch jessicar_joy jessicar_teleop_joy.launch
+```
+
+### Keyboard 연결
+```
+# 터미널 1
+roslaunch jessicar_control keyboard_control.launch
+
+# 터미널 2
+roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
