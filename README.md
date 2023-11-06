@@ -179,3 +179,15 @@ roslaunch jessicar_teleop jessicar_teleop_key.launch
 gst-launch-1.0 nvarguscamerasrc sensor_id=0 ! 'video/x-raw(memory:NVMM),width=3280, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=720' ! nvvidconv ! nvegltransform ! nveglglessink -e
 ```
 ![Screenshot from 2023-11-06 18-28-55](https://github.com/server-123/AI_RC/assets/73692229/6c9fb70f-6a52-4a0f-8aa8-346118ba56ab)
+
+```
+sudo apt install ros-melodic-image-view
+```
+
+```
+# 터미널 1
+$ roslaunch jessicar_camera csicam.launch
+
+# 터미널 2
+rqt_image_view
+```
