@@ -110,7 +110,8 @@ rosrun turtlesim turtlesim_node
 cd catkin_ws
 rosrun turtlesim turtle_teleop_key
 ```
-![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
+![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/afec4eb0-3285-4007-93bb-dfee60dff6fd)
+
 
 ### Install JessiCar
 ```
@@ -172,3 +173,9 @@ roslaunch jessicar_teleop jessicar_teleop_key.launch
 -|A(바퀴 왼쪽 회전)|S(멈춤)|D(바퀴 오른쪽 회전)
 -||X(뒤)|
 
+
+### Check the CSI camera
+```
+gst-launch-1.0 nvarguscamerasrc sensor_id=0 ! 'video/x-raw(memory:NVMM),width=3280, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=720' ! nvvidconv ! nvegltransform ! nveglglessink -e
+```
+![Screenshot from 2023-11-06 18-28-55](https://github.com/server-123/AI_RC/assets/73692229/6c9fb70f-6a52-4a0f-8aa8-346118ba56ab)
