@@ -100,13 +100,13 @@ PC, Jetson에 작업을 편리하게 할 환경을 .bashrc에서 추가해줍니
 
 #### Check ROS
 ```
-# 터미널 #1
+# 터미널 1
 cd catkin_ws
 roscore
-# 터미널 #2
+# 터미널 2
 cd catkin_ws
 rosrun turtlesim turtlesim_node
-# 터미널 #3
+# 터미널 3
 cd catkin_ws
 rosrun turtlesim turtle_teleop_key
 ```
@@ -140,4 +140,18 @@ python-smbus ros-melodic-ackermann-msgs ros-melodic-web-video-server \
 ros-melodic-image-pipeline python-pip
 
 pip2 install Adafruit_PCA9685
+```
+
+### Joystick 연결
+```
+sudo apt-get install joystick
+
+sudo jstest /dev/input/js0 # 동작 확인
+```
+```
+# terminal 1
+$ roslaunch jessicar_control joy_control.launch
+
+# terminal 2
+roslaunch jessicar_joy jessicar_teleop_joy.launch
 ```
