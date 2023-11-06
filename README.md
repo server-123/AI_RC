@@ -165,6 +165,7 @@ pip2 install Adafruit_PCA9685
 ```
 
 ### Joystick 연결(Connect the joystick)
+https://drive.google.com/file/d/18O1liBbSaMBcq8TjGDt5VhOOyb7V58aT/view?usp=drive_link
 ```
 sudo apt-get install joystick
 
@@ -215,6 +216,7 @@ rqt_image_view
 ![Screenshot from 2023-11-06 18-40-04](https://github.com/server-123/AI_RC/assets/73692229/62064e2b-a00a-428a-a4db-31f662b574b5)
 
 ### Blob Tracking
+https://drive.google.com/file/d/18LiPZYCcCwclCFF2_7QIPBJEvicKyw4S/view?usp=drive_link
 ```
 sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
 ```
