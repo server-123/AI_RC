@@ -165,7 +165,12 @@ roslaunch jessicar_control keyboard_control.launch
 # 터미널 2
 roslaunch jessicar_teleop jessicar_teleop_key.launch
 ```
-#### Table
-|---|W|---|
-|A|S|D|
-|---|X|---|
+
+-|motorPinA|motorPinB|enablePin|myservo.write
+---|---|---|---|---
+Forward|LOW|HIGH|velocity|90
+Back|HIGH|LOW|velocity|90
+Stop|||0|
+Left||||45
+Right||||135
+
