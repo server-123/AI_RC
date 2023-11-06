@@ -112,7 +112,7 @@ rosrun turtlesim turtle_teleop_key
 ```
 ![Screenshot from 2023-11-01 18-56-08](https://github.com/server-123/AI_RC/assets/73692229/e55b54d5-74cc-46f5-8ffd-7ef9c990484b)
 
-#### Install JessiCar
+### Install JessiCar
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/zeta0707/jessicar.git
@@ -131,7 +131,7 @@ cd ~/catkin_ws/src/jessicar/script
 ```  
 카메라는 기본 설정이 CSI이므로 설정 안 해줘도 괜찮음.
 
-#### 다른 ROS 패키지
+### 다른 ROS 패키지
 ```
 sudo apt update
 sudo apt install ros-melodic-joy* \
