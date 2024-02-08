@@ -165,7 +165,6 @@ pip2 install Adafruit_PCA9685
 ```
 
 ### Joystick 연결(Connect the joystick)
-https://drive.google.com/file/d/18O1liBbSaMBcq8TjGDt5VhOOyb7V58aT/view?usp=drive_link
 ```
 sudo apt-get install joystick
 
